@@ -1,0 +1,7 @@
+<li>
+  <%= download_count rubygem %>
+  <a href="<%= rubygem_path(rubygem) %>">
+    <strong><%= rubygem %></strong>
+    <%= short_info(rubygem.versions.most_recent) %>
+  </a>
+</li>

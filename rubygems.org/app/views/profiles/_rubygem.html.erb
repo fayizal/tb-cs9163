@@ -1,0 +1,15 @@
+<li class="<%= "small" unless graph %>">
+  <a href="<%= rubygem_path(rubygem) %>" class="profile-rubygem">
+    <%= rubygem.name %>
+    <em><%= rubygem.versions.most_recent %></em>
+  </a>
+  <% unless Rails.env.recovery? %>
+    <a href="#" class="profile-downloads">
+      <div><%= t('download_count', :count => content_tag(:span, number_with_delimiter(rubygem.downloads))).html_safe %></div>
+    </a>
+    <% if graph %>
+      <div id="graph-<%= rubygem.id %>" class="profile-graph">
+      </div>
+    <% end %>
+  <% end %>
+</li>

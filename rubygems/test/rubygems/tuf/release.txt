@@ -1,0 +1,28 @@
+{
+  "signed": {
+    "_type": "Release",
+    "ts": "2013-11-22 02:58:29 UTC",
+    "expires": "2013-11-22 05:45:09 UTC",
+    "meta": {
+      "root.txt": {
+        "hashes": {
+          "sha256": "d007ca9db61a514ba248c6a5e0c820b8334de651f9a2ec20bd46c978e88f1243"
+        },
+        "length": 4891
+      },
+      "targets.txt": {
+        "hashes": {
+          "sha256": "f65afce19bc29266dca0afbe77175fabffbd114d14d0c25ee4e4e13ecb4d36fa"
+        },
+        "length": 1022
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "41e29a40cf855334fb205302fe2d0919917bda694ff5cfcd7249a99ab989caed",
+      "method": "RSASSA-PKCS#1-v1.5+SHA512",
+      "sig": "b378783dd1352b18f9cf5bdc74ea6d1bcd0ad7ee9b0d1065f5cc256c91946a6423b4d6af85baf1ddd2b779fabcac985062c188b144dea3137a1c542f8a25363bd6fdb441d9d516e0e2189c9930f9471142028b895c45303473049a4d93734745e1469d04fdffff9db082d2638567e0674fb661d67d7d5129ef61b2c372ba705e515fdcf0943df8d423771a05729c2663d4edf0b88dc1e8d70ebb306dbc2d24e9ea73e0ee1cbebf250660f2580b7f9cf08d37b54039848e426fdc53496d30ed39129496bb3c93f1e5d06dcf3a95fda29b9b5f438754ba0b53a8ecf8625717ab60dd28925d5009ce4fb8122108236f400450bc3389554997ff48faef0b386f72ea"
+    }
+  ]
+}

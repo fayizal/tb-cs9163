@@ -1,0 +1,14 @@
+*.rbc
+*.swp
+.DS_Store
+/*.gemspec
+/.idea
+/.rdoc
+/.rvmrc
+/TAGS
+/doc
+/misc
+/notes.txt
+/pkg
+/tmp
+root.txt
